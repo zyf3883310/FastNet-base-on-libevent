@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{ef3e1398-7225-4aa6-b28e-e70ddb5ecaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{31d49edb-4bd6-489b-9458-7bdb6d86d8f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Client.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ClientListMgr.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ConnClient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FastNetClient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FastNetDefine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FastNetServer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IFastLog.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IFastNetClient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IFastNetServer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IFastServerCfg.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IHandleMsg.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\IMsgPack.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ISocket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MsgPack.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Socket.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TypeDefine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Client.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ClientListMgr.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConnClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FastNetClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FastNetServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MsgPack.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Socket.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
