@@ -10,18 +10,18 @@ int main()
 {
 	char key[10] = "key";
 	char input[20] = "aaa";
-	char output[20] = { 0 }; // ¼ÓÃÜÊä³ö
-	char output2[20] = { 0 };  //½âÃÜÊä³ö
+	char output[20] = { 0 }; // åŠ å¯†è¾“å‡º
+	char output2[20] = { 0 };  //è§£å¯†è¾“å‡º
 	
-	//ÒÔÏÂ¼ÓÃÜ£¬Äã°Ñoutput·¢¸ø·şÎñ¶Ë¾Í¿ÉÒÔÁË°¡¡£
+	//åŠ å¯†ï¼Œoutputå‘ç»™æœåŠ¡ç«¯ã€‚
 	int len = ENCRYPT((u_char *)key, (u_char *)input, (u_char *)output, strlen(input));
 	
 
 
 
-	//·şÎñ¶ËÊÕµ½µÄoutput£¬½âÃÜµ½output2ÖĞ´¦Àí
+	//æœåŠ¡ç«¯æ”¶åˆ°çš„outputï¼Œè§£å¯†åˆ°output2ä¸­å¤„ç†
 	DECRYPT((u_char *)key, (u_char *)output2, (u_char *)output, len);
-	cout << "½âÃÜ:" << output2 << endl;
+	cout << "è§£å¯†:" << output2 << endl;
 	
 
 	cin.get();
